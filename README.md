@@ -4,25 +4,25 @@
 
 # 截图
 
-<img src="https://raw.githubusercontent.com/oblivioussing/sacred/master/screen/vue-ueditor-multi/show.gif"/>
+<img src="https://raw.githubusercontent.com/oblivioussing/vue-ueditor-multi/master/screen/show.gif"/>
 
 # 说明
 
 下载ueditor或neditor源码,拷贝到static目录下面
 
-<img src="https://raw.githubusercontent.com/oblivioussing/sacred/master/screen/vue-ueditor-multi/in-static.png"/>
+<img src="https://raw.githubusercontent.com/oblivioussing/vue-ueditor-multi/master/screen/in-static.png"/>
 
 然后修改ueditor.config.js配置文件
 
-<img src="https://raw.githubusercontent.com/oblivioussing/sacred/master/screen/vue-ueditor-multi/config.png"/>
+<img src="https://raw.githubusercontent.com/oblivioussing/vue-ueditor-multi/master/screen/config.png"/>
 
 在vue项目的main.js添加ueditor引用
 
-<img src="https://raw.githubusercontent.com/oblivioussing/sacred/master/screen/vue-ueditor-multi/vue-main.png"/>
+<img src="https://raw.githubusercontent.com/oblivioussing/vue-ueditor-multi/master/screen/vue-main.png"/>
 
 新建3个页面 home,tab1,tab2。tab1和tab2是home下面的子页面
 
-<img src="https://raw.githubusercontent.com/oblivioussing/sacred/master/screen/vue-ueditor-multi/vue-home.png"/>
+<img src="https://raw.githubusercontent.com/oblivioussing/vue-ueditor-multi/master/screen/vue-home.png"/>
 
 在router-view外面一定要添加keep-alive组件和transition组件,不然ueditor实例无法保存
 
